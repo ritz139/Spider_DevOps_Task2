@@ -1,0 +1,13 @@
+cd /home/$1/Symptoms
+for i in {1..20}; do
+    if [[ $i -le 20 ]]; then
+        a=$(ls -l | grep "Symptom_$i.txt")
+        if $a;
+            then
+                continue
+        else
+            echo $i > Symptom_$i.txt
+        fi
+    else 
+        sudi bash hDeleteUser $1
+    fi

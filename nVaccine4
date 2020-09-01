@@ -1,0 +1,7 @@
+for user in dor{1..2}; do
+	echo Coronil > /home/$user/Vaccines/Vaccine_Coronil.txt
+	echo USA > /home/$user/Vaccines/Vaccine_USA.txt
+	echo Russia > /home/$user/Vaccines/Vaccine_Russia.txt
+	echo India > /home/$user/Vaccines/Vaccine_India.txt
+	echo UK > /home/$user/Vaccines/Vaccine_UK.txt
+done

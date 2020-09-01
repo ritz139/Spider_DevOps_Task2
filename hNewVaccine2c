@@ -1,0 +1,16 @@
+#2 vaccines will be created after every run in both doctor
+i=0
+j=1
+for user in doc{1..2}; do
+    until [ $i -eq 2 ]; do
+        cd /home/$user/Vaccines/
+        a=$(ls -l | grep "Vaccine_$j.txt)
+        if $a; then
+            j=$((j + 1))
+        else
+            echo "Vaccine $j" > Vaccine_$j.txt
+            j=$((j + 1))
+            i=$((i + 1))
+        fi
+    done
+done

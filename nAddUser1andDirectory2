@@ -1,0 +1,21 @@
+echo 1234 > defpasswd.txt
+echo 1234 >> defpasswd.txt
+
+sudo useradd -m --badname Corona
+cat defpasswd.txt | passwd Corona
+
+for i in doc1 doc2;
+do
+    sudo useradd -m --badname $i
+    cat defpasswd.txt | passwd $i
+    mkdir /home/$i/Vaccines Symptoms Requests
+done
+
+for i in p{1..10};
+do
+    sudo useradd -m --badname $i
+    cat defpasswd.txt | passwd $i
+    mkdir /home/$i/Symptoms
+done
+
+rm -f defpasswd.txt

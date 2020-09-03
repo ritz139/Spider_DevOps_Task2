@@ -4,6 +4,8 @@ The number of file has been written in description of all files.
 
 First letter of every file represents "n for Normal level and h for Hacker level"
 
+Second file (nPermission3Directory2.bashrc), change the user(ritik) written with Corona:ritik by your device user name.
+
 Parameters are passed in 
   
   a) hVirusCreateSymptom2a has one parameter for name of citizen

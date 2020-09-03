@@ -1,9 +1,0 @@
-alias adduserdir = "sudo bash nAddUser1andDirectory2"     #first run this file
-alias permit = " sudo bash nPermission3"                  #second run this file
-alias vaccine = "sudo bash nVaccine4"                     #third file to run
-alias symptomrequest = "sudo bash nSymptom5Request6"      #fourth file to run
-alias viruscreate = "sudo bash hVirusCreateSymptom2a"     #fifth file to run, it has one parameter
-alias newvaccine = "sudo bash hNewVaccine2c"              #sixth file to run
-alias patientrequest = "sudo bash hPatientRequest2d"      #seventh file to run, it has three parameter
-alias docdelsym = "sudo bash hDoctorDeleteSymptom2e"      #eighth file to run, it has one parameter
-alias cronfile = "sudo bash hCronVirusCreateSymptom3"     #ninth file to run

@@ -2,8 +2,6 @@
 
 The number of file has been written in description of all files.
 
-Open the alias.sh file to find the keyword for every file
-
 First letter of every file represents "n for Normal level and h for Hacker level"
 
 Parameters are passed in 
